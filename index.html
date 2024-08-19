@@ -10,11 +10,13 @@
     <section>
     <h1>Import verified venue menu</h1>
     <p></p>
-    <fieldset>
-      <legend>Import</legend>
-      <input type="text" name="venueurl" placeholder="venue URL" required>
-      <button type="import">Import</button>
-    </fieldset>
+     <form action="/import" method="post">
+        <fieldset>
+            <legend>Import</legend>
+            <input type="text" name="venueurl" placeholder="venue URL" required>
+            <button type="submit">Import</button>
+        </fieldset>
+    </form>
       <h3>Add filters</h3>
       <fieldset>
       <legend>Filters</legend>
