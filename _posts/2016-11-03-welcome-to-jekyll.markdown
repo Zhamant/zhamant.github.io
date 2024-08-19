@@ -4,3 +4,48 @@ title:  "Venues"
 date:   2024-08-19
 categories: UT
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue Menu</title>
+</head>
+<body>
+  <main>
+    <section>
+    <h1>Import verified venue menu</h1>
+    <p></p>
+    <fieldset>
+      <legend>Import</legend>
+      <input type="text" name="venueurl" placeholder="venue URL" required>
+      <button type="import">Import</button>
+    </fieldset>
+      <h3>Add filters</h3>
+      <fieldset>
+      <legend>Filters</legend>
+        <input id="styles" type="checkbox" name="filters" value="styles">
+          <label for="styles">Styles</label>
+        <input id="superstyles" type="checkbox" name="filters" value="superstyles">
+          <label for="superstyles">SuperStyles</label>
+      	<input id="brewery" type="checkbox" name="filters" value="brewery">
+          <label for="brewery">Brewery</label>
+        <input id="country" type="checkbox" name="filters" value="country">
+          <label for="country">Country</label>
+    </fieldset>
+    <h3>Compare with friends</h3>
+    <fieldset>
+      <legend>Friends</legend>
+      <input id="marduk" type="checkbox" name="friends" value="marduk">
+      <label for="marduk">Marduk</label>
+      <input id="mart" type="checkbox" name="friends" value="mart">
+      <label for="mart">Mart</label>
+      <input id="fakephil" type="checkbox" name="friends" value="fakephil">
+      <label for="fakephil">FakePhil</label>
+    </fieldset>
+    </section>
+  </main>
+<footer>
+</footer>
+</body>
+</html>
